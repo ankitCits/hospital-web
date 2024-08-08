@@ -27,8 +27,8 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                No. 17, Near Wooshelf Digital Library, Naini,
+                Praygraj - 600042, India
                 </p>
                 <div className="flex items-center">
                   <a

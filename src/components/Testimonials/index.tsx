@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Dr. Musharof Chy",
+    designation: "Founder @Vihan Hospital",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "We selected A2Z after running through at least 15 different HISs. Absolutely no regrets. The most I like with A2Z is the quick and prompt response of the A2Z team to solve any difficulties, both regarding the usage and technical issues.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Dr. Roshan Jha",
+    designation: "Founder @Sree Hospital & Research Center",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The software quality is consistently outstanding, exceeding our expectations every time and we would highly recommend this business. Their customer service is also second to none. ",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Dr. Anand Mohan Rai",
+    designation: "Founder @Leela Dental & Eye Hospital",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "We started using A2Z after having a very bad experience with another HMS. The software is very user-friendly and the support team, led by Mr. Sidique, is always there to help. We strongly recommend A2Z.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,7 +37,7 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
+          title="What Our Client Says"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           center
         />

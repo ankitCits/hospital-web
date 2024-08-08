@@ -23,11 +23,20 @@ const AboutSectionOne = () => {
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
+              {/* <SectionTitle
+                title="A2Z Hospital Management Software HMS Your End-to-End Solution"
                 paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
                 mb="44px"
-              />
+              /> */}
+
+<div className="w-full mx-auto text-center" style={{ maxWidth: "570px", marginBottom: "44px" }}>
+            <h2 className="mb-4 text-3xl font-bold !leading-tight sm:text-4xl md:text-[45px]">
+              <span className="text-black dark:text-white">A2Z Hospital Management Software HMS Your </span> <span className="text-orange-500 ">End-to-End Solution</span>
+            </h2>
+            <p className="text-base !leading-relaxed text-body-color md:text-lg">
+            A2Z HMS is not just a pretty interface, it can help you untangle your bookmarks mess. 
+            </p>
+          </div>
 
               <div
                 className="mb-12 max-w-[570px] lg:mb-0"
@@ -35,15 +44,17 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Mobile & Web Interface" />
+                    <List text="IPD Management" />
+                    <List text="Emergency Response Care" />
+                    <List text="Online Hospital" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="OPD Management" />
+                    <List text="Billing Management" />
+                    <List text="Operations Management" />
+                    <List text="Patient Feedback System" />
                   </div>
                 </div>
               </div>
